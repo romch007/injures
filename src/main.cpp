@@ -14,7 +14,7 @@ T random(std::vector<T> const &list) {
 
 int main() {
   std::vector<std::string> names = {"Robin", "Logan", "Vahan"};
-  std::vector<std::string> words = {"adopté", "puceau", "pédophile", "juif", "coranique", "gay"};
+  std::vector<std::string> words = {"adopté", "puceau", "pédophile", "vraiment à chier en algèbre"};
 
   auto name = random(names);
   auto word = random(words);
