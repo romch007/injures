@@ -5,16 +5,14 @@
 template<typename T>
 T random(std::vector<T> const &list) {
    std::random_device seed;
-   // generator 
    std::mt19937 engine(seed());
-   // number distribution
-   std::uniform_int_distribution<int> choose(0, list.size() - 1) ;
+   std::uniform_int_distribution<int> choose(0, list.size() - 1);
    return list[choose(engine)];
 }
 
 int main() {
   std::vector<std::string> names = {"Robin", "Logan", "Vahan"};
-  std::vector<std::string> words = {"adopté", "puceau", "pédophile", "vraiment à chier en algèbre"};
+  std::vector<std::string> words = {"adopté", "puceau", "pédophile", "vraiment à chier en algèbre", "vraiment un connard", "le seul batard qui skip le leg day"};
 
   auto name = random(names);
   auto word = random(words);
