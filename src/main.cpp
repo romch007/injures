@@ -12,7 +12,7 @@ T random(std::vector<T> const &list) {
 
 int main() {
   std::vector<std::string> names = {"Robin", "Logan", "Vahan"};
-  std::vector<std::string> words = {"adopté", "puceau", "pédophile", "vraiment à chier en algèbre", "vraiment un connard", "le seul batard qui skip le leg day"};
+  std::vector<std::string> words = {"adopté", "puceau", "pédophile", "vraiment à chier en algèbre", "vraiment un connard", "le seul batard qui skip le leg day", "adore le python ce shlag"};
 
   auto name = random(names);
   auto word = random(words);
